@@ -84,3 +84,20 @@ a {
   background-position: center center; */
   background: url(img/showcase2.jpg) center center/cover no-repeat;
 }
+
+.btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #262626;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: opacity .2s ease;
+}
+
+.btn:hover {
+  opacity: .7;
+}
