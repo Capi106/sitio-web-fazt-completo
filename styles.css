@@ -42,8 +42,28 @@ a {
   height: 60px;
   padding: 20px 0;
   font-size: 17px;
+  border-bottom: 2px solid #fff;
 }
 
 .nav-brand {
   width: 50px;
+}
+
+.nav-menu,
+.nav-menu-right {
+  display: flex;
+}
+
+.nav-menu {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.nav-menu a {
+  padding: 10px;
+  transition: color .3s ease;
+}
+
+.nav-menu a:hover {
+  color: #9b9b9b;
 }
