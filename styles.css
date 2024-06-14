@@ -189,3 +189,17 @@ a {
   text-align: center;
   font-size: 30px;
 }
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links i {
+  font-size: 3rem;
+}
