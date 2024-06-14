@@ -37,6 +37,7 @@ a {
 /* ********** Navigation Styles ********** */
 
 .menu-btn {
+  display: none;
   position: absolute;
   top: 10px;
   right: 30px;
@@ -252,6 +253,10 @@ a {
 /* Mediaqueries */
 @media screen and (max-width: 700px) {
 
+  .menu-btn {
+    display: inline-block;
+  }
+
   .nav-main .nav-menu {
     flex-direction: column;
     position: absolute;
@@ -288,5 +293,26 @@ a {
 
   .footer-links .footer-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .menu-btn {
+    display: inline-block;
+  }
+
+  .news-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cards-banner-one .content,
+  .cards-banner-two .content {
+    width: 100%;
+  }
+
+  .footer-links .footer-container {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
   }
 }
