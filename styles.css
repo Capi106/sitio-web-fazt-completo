@@ -177,3 +177,15 @@ a {
 .cards-banner-two p {
   margin: 10px 0 20px 0;
 }
+
+
+/* ********** Social styles ********** */
+.social { 
+  margin: 50px;
+}
+
+.social p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+}
