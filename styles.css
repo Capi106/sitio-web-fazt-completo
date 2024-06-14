@@ -118,3 +118,7 @@ a {
   margin: 20px 0;
 }
 
+.news-cards img {
+  width: 100%;
+  height: auto;
+}
