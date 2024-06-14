@@ -203,3 +203,29 @@ a {
 .links i {
   font-size: 3rem;
 }
+
+
+/* ********** Footer links styles ********** */
+.footer-links {
+  padding: 35px 0;
+  font-size: 12px;
+  color: #616161;
+  background-color: #2f3640;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-container ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+.footer-container ul li {
+  line-height: 2.8;
+}
