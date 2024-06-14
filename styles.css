@@ -108,3 +108,13 @@ a {
 .btn:hover {
   opacity: .7;
 }
+
+
+/* ********** News Cards styles ********** */
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: 20px 0;
+}
+
